@@ -6,6 +6,7 @@
 #include <QString>
 #include "square.h"
 #include "inputdialog.h"
+#include "playersdialog.h"
 
 namespace Ui {
 class MainWindow;

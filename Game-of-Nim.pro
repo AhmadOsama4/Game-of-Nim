@@ -28,14 +28,17 @@ SOURCES += \
         mainwindow.cpp \
     computermove.cpp \
     square.cpp \
-    inputdialog.cpp
+    inputdialog.cpp \
+    playersdialog.cpp
 
 HEADERS += \
         mainwindow.h \
     computermove.h \
     square.h \
-    inputdialog.h
+    inputdialog.h \
+    playersdialog.h
 
 FORMS += \
         mainwindow.ui \
-    inputdialog.ui
+    inputdialog.ui \
+    playersdialog.ui

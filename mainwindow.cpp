@@ -29,6 +29,13 @@ MainWindow::MainWindow(QWidget *parent) :
         V.push_back(1);
         //this->close();
     }
+
+    PlayersDialog pdlg;
+
+    if(pdlg.exec()){
+        isComp = pdlg.getNumOfPlayers();
+    }
+
     initializeGrid(V);
     updateWindow();
     connect(this, SIGNAL(playerMoveDone(bool)), this, SLOT(startCompMove(bool)));
